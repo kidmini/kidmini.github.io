@@ -1,0 +1,149 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, ul, dl, dt, dd, a, i, b, em, strong, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+b, strong, i, em {
+  font-weight: normal;
+}
+
+body, html {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+textarea, select {
+  outline: none;
+  resize: none;
+}
+
+body {
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  color: #000;
+  font-family: "Î¢ÈíÑÅºÚ", Helvetica, STHeiTi, sans-serif;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+img, input, select {
+  vertical-align: top;
+}
+
+img {
+  display: block;
+  border: none;
+}
+
+.por {
+  position: relative;
+}
+
+.poa {
+  position: absolute;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.ht_top {
+  width: 100%;
+  background: #fafafa url(http://www.huatu.com/z/topfooter/images/nav_bg.gif) repeat-x 0 0;
+  line-height: 41px;
+  overflow: hidden;
+}
+
+.ht_top .zt_top {
+  width: 1000px;
+  height: 41px;
+  margin: 0 auto;
+}
+
+.ht_top h1 a {
+  float: left;
+  width: 131px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -100em;
+  background: url(http://www.huatu.com/z/topfooter/images/logo.gif) no-repeat;
+  font-size: 12px;
+}
+
+.ht_top .topnav {
+  float: right;
+  color: #333;
+  font-size: 12px;
+}
+
+.ht_top .topnav a {
+  padding: 0 8px;
+  color:#333;
+}
+
+.ht_top .topnav a:hover {
+  color: #e4393c;
+  text-decoration: underline;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  background: #111520;
+}
+
+.footer p {
+  line-height: 26px;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer p a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer p span {
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px
+}
+.mob_header,.m-footer{
+  display:none;
+}
